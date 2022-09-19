@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color:black;
+    background-color: white;
+    border-bottom: 0.2 solid #413f3f;
+}
+
+.conteudo:hover ul {
+    display: block;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    background-color: #b61818;
+    font-size: 35px;
+    padding: 30px;
+}
+
+.materias{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(178, 178, 178);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-around;
+    text-align: left;
+    margin: 5px;
+    gap: 2px;
+    color: black;
+    padding: 10px;
+}
+
+a {
+    color: black;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    border-left: 1px solid rgb(178, 178, 178);
+    padding: 10px;
+    margin:0;
+}
+
+p {
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: solid rgb(99, 99, 99);
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    border-radius: solid rgb(122, 122, 122);
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: solid rgb(70, 70, 70);
+}
+
+.sec {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+footer p{
+    color: rgb(255, 255, 255);
+    background-color: #a1a1a1;
+    padding: 7px;
+}
