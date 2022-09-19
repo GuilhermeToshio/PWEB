@@ -1,0 +1,28 @@
+.cor {
+    padding: 50px;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 1920px) {
+    .cor {background-color: rgb(255, 238, 0);}
+}
+
+@media screen and (max-width: 1366px) {
+    .cor {background-color: rgb(243, 120, 120);}
+}
+
+@media screen and (max-width: 1080px) {
+    .cor {background-color: rgb(74, 3, 141);
+}
+
+@media screen and (max-width: 1024px) {
+    .cor {background-color: rgb(224, 28, 159);}
+}
+
+@media screen and (max-width: 768px) {
+    .cor {background-color: rgb(247, 163, 8);}
+}
+
+@media screen and (max-width: 420px) {
+    .cor {background-color: rgb(25, 77, 74);}
+}
+}
