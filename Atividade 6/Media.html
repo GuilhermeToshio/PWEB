@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 06</title>
+</head>
+<body>
+    <script>
+
+        var nome,a=0,b=0,c=0,resu=0;
+
+        nome = prompt ("Nome do aluno");
+        a = parseFloat(prompt("Primeira nota"));
+        b = parseFloat(prompt("Segunda nota"));
+        c = parseFloat(prompt("Terceira nota"));
+
+        resu = (a + b + c)/3;
+
+        alert('A média do aluno '+ nome +' é igual a: ' + parseFloat(resu.toFixed(2)));
+
+    </script>
+</body>
+</html>
